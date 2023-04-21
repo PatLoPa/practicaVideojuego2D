@@ -5,9 +5,10 @@ using UnityEngine;
 public class movimiento : MonoBehaviour
 {
 
-    public static float Speed = 2f;
+    public static float Speed = 3.5f;
     public bool ActivaSalto = true;
     public float Salto = 5f;
+    public static bool direccionBala = true;
 
     // Start is called before the first frame update
     void Start()
@@ -18,25 +19,28 @@ public class movimiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // GETAXIS
-        float H = Input.GetAxis("Horizontal")*Speed;
-        H *= Time.deltaTime;
-        transform.Translate(H,0,0);
+        if(principalScript.Vida > 0){
+            // GETAXIS
+            float H = Input.GetAxis("Horizontal")*Speed;
+            H *= Time.deltaTime;
+            transform.Translate(H,0,0);
 
-        // INPUTS CONTROL NO DEFINIDOS
-        if(Input.GetKey(KeyCode.Space) && ActivaSalto == true ){
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0,Salto),ForceMode2D.Impulse);
-            ActivaSalto = false;
+            // INPUTS CONTROL NO DEFINIDOS
+            if(Input.GetKey(KeyCode.Space) && ActivaSalto == true ){
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0,Salto),ForceMode2D.Impulse);
+                ActivaSalto = false;
+            }
+
+            if(Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)){
+                transform.localScale = new Vector3(1,1,1);
+                direccionBala = true;
+            }
+
+            if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)){
+                transform.localScale = new Vector3(-1,1,1);
+                direccionBala = false;
+            }
         }
-
-        if(Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)){
-            transform.localScale = new Vector3(1,1,1);
-        }
-
-        if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)){
-            transform.localScale = new Vector3(-1,1,1);
-        }
-
     }
 
     void OnCollisionEnter2D(){
