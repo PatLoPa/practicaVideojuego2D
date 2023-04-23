@@ -10,6 +10,7 @@ public class movimiento : MonoBehaviour
     public float Salto = 5f;
     public static bool direccionBala = true;
 
+    public Animator controlAnimacion;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,11 +35,21 @@ public class movimiento : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)){
                 transform.localScale = new Vector3(1,1,1);
                 direccionBala = true;
+                controlAnimacion.SetBool("activacamina", true);
             }
 
             if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)){
                 transform.localScale = new Vector3(-1,1,1);
                 direccionBala = false;
+                controlAnimacion.SetBool("activacamina", true);
+            }
+
+            if(Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D)){
+                controlAnimacion.SetBool("activacamina", false);
+            }
+
+            if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A)){
+                controlAnimacion.SetBool("activacamina", false);
             }
         }
     }

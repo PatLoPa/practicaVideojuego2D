@@ -158,12 +158,12 @@ TextureImporter:
       name: tilset-pltaformas_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 301
-        width: 98
-        height: 50
+        x: 3
+        y: 302
+        width: 96
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: tilset-pltaformas_1
       rect:
         serializedVersion: 2
-        x: 101
-        y: 301
-        width: 99
-        height: 98
+        x: 102
+        y: 302
+        width: 97
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: tilset-pltaformas_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 301
-        width: 99
-        height: 98
+        x: 301
+        y: 302
+        width: 97
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: tilset-pltaformas_3
       rect:
         serializedVersion: 2
-        x: 400
-        y: 301
-        width: 98
-        height: 50
+        x: 401
+        y: 302
+        width: 96
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: tilset-pltaformas_4
       rect:
         serializedVersion: 2
-        x: 2
-        y: 201
-        width: 98
-        height: 98
+        x: 3
+        y: 202
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: tilset-pltaformas_5
       rect:
         serializedVersion: 2
-        x: 101
-        y: 201
-        width: 99
-        height: 98
+        x: 102
+        y: 202
+        width: 97
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: tilset-pltaformas_6
       rect:
         serializedVersion: 2
-        x: 201
-        y: 201
-        width: 98
-        height: 98
+        x: 202
+        y: 202
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: tilset-pltaformas_7
       rect:
         serializedVersion: 2
-        x: 300
-        y: 201
-        width: 99
-        height: 98
+        x: 301
+        y: 202
+        width: 97
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: tilset-pltaformas_8
       rect:
         serializedVersion: 2
-        x: 400
-        y: 201
-        width: 98
-        height: 98
+        x: 401
+        y: 202
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: tilset-pltaformas_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 102
-        width: 98
-        height: 98
+        x: 3
+        y: 103
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: tilset-pltaformas_10
       rect:
         serializedVersion: 2
-        x: 101
-        y: 102
-        width: 99
-        height: 98
+        x: 102
+        y: 103
+        width: 97
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,12 +389,12 @@ TextureImporter:
       name: tilset-pltaformas_11
       rect:
         serializedVersion: 2
-        x: 201
-        y: 102
-        width: 98
-        height: 98
+        x: 202
+        y: 103
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: tilset-pltaformas_12
       rect:
         serializedVersion: 2
-        x: 300
-        y: 102
-        width: 99
-        height: 98
+        x: 301
+        y: 103
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: tilset-pltaformas_13
       rect:
         serializedVersion: 2
-        x: 400
-        y: 102
-        width: 98
-        height: 98
+        x: 401
+        y: 103
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: tilset-pltaformas_14
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 98
-        height: 98
+        x: 3
+        y: 3
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: tilset-pltaformas_15
       rect:
         serializedVersion: 2
-        x: 101
-        y: 2
-        width: 99
-        height: 98
+        x: 102
+        y: 3
+        width: 97
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,12 +494,12 @@ TextureImporter:
       name: tilset-pltaformas_16
       rect:
         serializedVersion: 2
-        x: 201
-        y: 2
-        width: 98
-        height: 98
+        x: 202
+        y: 3
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

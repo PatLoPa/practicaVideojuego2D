@@ -122,4 +122,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e7996dd5ee900a49b01ba1f6ab43ebc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Personaje: {fileID: 0}
+  Personaje: {fileID: 5792317317580603016, guid: 3202dd637f23f12468331b43546efb41, type: 3}
+  gestorSonido: {fileID: 1290400142671279772, guid: 31d499fea72e1314da85f053ef46c2b3, type: 3}

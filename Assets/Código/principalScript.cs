@@ -6,7 +6,7 @@ public class principalScript : MonoBehaviour
 {
     public static int Score = 0;
     public static int Vida = 3;
-    public static int Enemigos = 10;
+    public static int Enemigos = 5;
     // Start is called before the first frame update
 
     public GUISkin miSkin;
@@ -19,7 +19,9 @@ public class principalScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Vida: " + Vida + " Score: " + Score);
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Application.Quit();
+        }
     }
 
     void OnGUI()
